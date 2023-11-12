@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Inter:wght@200;400&family=Lato:wght@400;700&family=Montserrat:wght@100;400;700&family=Noto+Sans+Vithkuqi&family=Playfair+Display:wght@400;600&family=Poppins:wght@500&family=Roboto:ital,wght@0,300;0,500;1,400&family=Signika+Negative:wght@600&family=Work+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body style="font-family: 'Inter', sans-serif;">
+    <header class="mt-5">
+        <nav class="lg:flex items-center ">
+            <div style="width: 45%;"><a href="index.html"><span id='home'class="material-symbols-outlined  w-0 text-5xl text-slate-600 ps-4 lg:text-5xl text-slate-600 ps-4">
+                home
+                </span></a></div>
+        <div > <h1 class="text-5xl font-bold text-black text-center">BlogX</h1></div>
+        </nav>
+    </header>
+    <main class=" mx-10 mb-10 md:mx-20 mb-15 lg:mx-36 mb-20">
+    <!-- blog-1  -->
+    <section class="w-full mt-20">
+        <div class=" grid grid-cols-1 gap-4 md:grid grid-cols-1 gap-4 lg:flex items-center justify-between gap-5">
+            <div class="w-full lg:w-2/4"><img src="images/Let-CONST-AND-VAR.png" alt="var-let-const image"></div>
+            <div class="w-full lg:w-2/4 ">
+            <h3 class="text-3xl font-bold">Discuss the scope of var, let, and const</h3>
+            <p class="pt-1"><span class="text-sm text-gray-400 ">10 November,2023</span></p>
+            <p class="pt-5">The differences between var, let, and const variable declaration in JavaScript include:
+                Variables declared with var and const are scoped to the immediate function body.
+                Variables declared with the var keyword are hoisted. Hoisting means that the variable can be accessed in their enclosing scope even before they are declared.
+                Variables declared with the let keyword are block-scoped, which means the variables will have scope to the immediate enclosing block.</p>
+            </div>
+        </div>
+    </section>
+    <!-- blog-2 -->
+    <section class="w-full mt-10">
+        <div class="grid grid-cols-1 gap-4 md:grid grid-cols-1 gap-4 lg:flex items-center justify-between gap-5">
+            <div class=" w-full lg:w-2/4"><img src="images/image-1.jpg" alt="var-let-const image"></div>
+            <div class=" w-full lg:w-2/4">
+            <h3 class="text-3xl font-bold">Tell us the use cases of null and undefined</h3>
+            <p class="pt-1"><span class="text-sm text-gray-400 ">10 November,2023</span></p>
+            <p class="pt-5">
+                In JavaScript, null is a primitive value that represents the intentional absence of any object value. It is often used to indicate that a variable or object property should have no value or no reference to any object.
+
+On the other hand, undefined is a primitive value that is automatically assigned to variables that have been declared but not initialized. It also represents the value of function parameters that were not provided. Essentially, undefined indicates the absence of a defined value.
+
+
+            </p>
+            </div>
+        </div>
+    </section>
+    <!-- blog 3 -->
+    <section  class="w-full mt-10">
+        <div class="grid grid-cols-1 gap-4 md:grid grid-cols-1 gap-4 lg:flex items-center justify-between gap-5">
+            <div class="w-full h-50  lg:w-2/4 h-80"><img class="h-full w-full" src="images/image-2.jpg" alt="var-let-const image"></div>
+            <div class=" w-full lg:w-2/4">
+            <h3 class="text-3xl font-bold">What do you mean by REST API?</h3>
+            <p class="pt-1"><span class="text-sm text-gray-400 ">10 November,2023</span></p>
+            <p class="pt-5">
+                A REST API (Representational State Transfer Application Programming Interface) in JavaScript allows communication between a client and server using standard HTTP methods. It enables the exchange of data in a stateless manner, commonly using JSON format, to perform CRUD (Create, Read, Update, Delete) operations on resources.
+            </p>
+            </div>
+        </div>
+    </section>
+    </main>
+    <script src="js/blog.js"></script>
+</body>
+</html>

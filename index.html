@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+   
+    </style>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com">
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Inter:wght@200;400&family=Lato:wght@400;700&family=Montserrat:wght@100;400;700&family=Noto+Sans+Vithkuqi&family=Playfair+Display:wght@400;600&family=Poppins:wght@500&family=Roboto:ital,wght@0,300;0,500;1,400&family=Signika+Negative:wght@600&family=Work+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body style="font-family:'Inter', sans-serif;">
+    <!-- header start -->
+    <header class="lg:mx-20  mx-5 mt-8">
+    <nav >
+        <div class=" grid grid-cols-1 gap-4  lg:flex items-center justify-between md:flex items-center justify-between  ">
+            <div class="mx-32 lg:mx-0 md:mx-0" ><img class=" lg:ms-0 md:ms-0" src="Logo.png" alt="icon.png" ></div>
+            <div class="  text-center"><button id="sort"  style="background-color: rgba(37, 37, 37, 0.2);" class="  btn text-black font-semibold ">Sort by view</button></div>
+            <div><button id="blog" style="background-color: rgba(255, 31, 61, 1);" class="btn btn-active text-white    lg:btn btn-active text-white ms-0 ">Blog</button></div>
+        </div>
+ <hr class="mt-9" style="background-color: rgba(23, 23, 23, 0.2);">
+    </nav>
+    </header>
+    <!-- header end -->
+    <main class="lg:mx-20 mx-10 md:mx-15" >
+        <!-- section 1 -->
+  <section >
+    <div  class=" sm: grid grid-cols-2 gap-6  md:flex justify-center items-center gap-6 mt-9 lg:flex justify-center items-center gap-6 mt-9 ">
+        <button onclick="allButton()" id="allButton"  class=" btn   bg-zinc-300 hover:bg-red-500 text-gray-600 hover:text-white focus:bg-red-500 focus:text-white">All</button>
+        
+      
+        <button id="musicButton"  onclick="musicButton()" class="btn   bg-zinc-300 hover:bg-red-500 text-gray-600 hover:text-white focus:bg-red-500 focus:text-white">Music</button>
+        <button onclick="comedyButton()"  class="btn   bg-zinc-300 hover:bg-red-500 text-gray-600 hover:text-white focus:bg-red-500 focus:text-white">Comedy</button>
+        <button onclick="drawingButton()"   class="btn  bg-zinc-300 hover:bg-red-500 text-gray-600 hover:text-white focus:bg-red-500 focus:text-white">Drawing</button>
+    </div>
+  </section>
+  <!-- end -->
+  <!-- section 2 -->
+  <section class="mt-6">
+    <!-- main div -->
+   <div id="container" class="" >
+    <!-- child div -->
+    
+
+   </div>
+  
+   <!-- main div end -->
+  </section>
+  
+    </main>
+    <!-- main end  -->
+    <script src="js/tube.js"></script>
+</body>
+</html>
